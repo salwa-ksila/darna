@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_login"
+        android:icon="@drawable/login"
+        android:showAsAction="collapseActionView"
+        android:title="@string/login"/>
+    <item android:id="@+id/action_sign_in"
+        android:icon="@drawable/sign_in"
+        android:title="@string/sign_in"
+        android:actionLayout="@layout/activity_signin"/>
+    <item android:id="@+id/action_about"
+        android:icon="@drawable/about"
+        android:title="@string/about"
+        android:actionLayout="@layout/activity_signin"/>
+    <item android:id="@+id/action_help"
+        android:icon="@drawable/help"
+        android:title="@string/help"
+        android:showAsAction="never"
+        android:actionLayout="@layout/activity_signin"/>
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/search"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView"/>
+</menu>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/macbookpro/Desktop/EffectiveNavigation1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="aqua">#00FFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="lime">#00FF00</color>
+    <color name="maroon">#800000</color>
+    <color name="navy">#000080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="silver2">#fff6f4fb</color>
+    <color name="teal">#008080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <!-- From: file:/Users/macbookpro/Desktop/EffectiveNavigation1/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/macbookpro/Desktop/EffectiveNavigation1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">A propos</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Effective Navigation</string>
+    <string name="demo_collection">Demo Collection</string>
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="dev">développé_par_codeit</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help">Aide</string>
+    <string name="login">Se connecter</string>
+    <string name="search">search</string>
+    <string name="sign_in">S\'inscrire</string>
+    <string name="title_activity_login">Login</string>
+    <!-- From: file:/Users/macbookpro/Desktop/EffectiveNavigation1/app/src/main/res/values/styles_darna.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Darna" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_darna</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_darna</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_darna</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Darna</item>
+    </style>
+    <style name="ActionBar.Transparent.Darna" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_darna</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Darna</item>
+    </style>
+    <style name="ActionBarTabStyle.Darna" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_darna</item>
+    </style>
+    <style name="ActionButton.CloseMode.Darna" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_darna</item>
+    </style>
+    <style name="DropDownListView.Darna" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_darna</item>
+    </style>
+    <style name="DropDownNav.Darna" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_darna</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_darna</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_darna</item>
+    </style>
+    <style name="PopupMenu.Darna" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_darna</item>	
+    </style>
+    <style name="ProgressBar.Darna" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_darna</item>
+    </style>
+    <style name="Theme.Darna" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_darna</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Darna</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Darna</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Darna</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Darna</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Darna</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_darna</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_darna</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Darna</item>
+        
+        
+    </style>
+    <style name="Theme.Darna.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Darna</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Darna</item>
+    </style>
+</resources>

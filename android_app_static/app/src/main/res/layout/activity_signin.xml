@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/frame"
+
+    android:id="@+id/main"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:background="@drawable/style"
+        android:id="@+id/o"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+       >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Nom et prénom"
+            android:id="@+id/name"
+            android:drawableLeft="@drawable/nom"
+            android:background="@color/white"
+            android:drawablePadding="6dp"
+            android:layout_margin="6dp"
+            android:paddingLeft="5dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Email"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:layout_below="@id/name"
+            android:drawableLeft="@drawable/mail"
+            android:background="@color/white"
+            android:drawablePadding="6dp"
+            android:layout_margin="6dp"
+            android:paddingLeft="5dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="mot de passe"
+            android:id="@+id/pass"
+            android:background="@color/white"
+            android:layout_below="@id/email"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="6dp"
+            android:inputType="textPassword"
+            android:layout_margin="6dp"
+            android:paddingLeft="5dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="confirmer votre mot de passe"
+            android:id="@+id/ver"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            android:layout_below="@id/pass"
+            android:layout_margin="6dp"
+            android:paddingLeft="5dp"
+            android:textSize="17dp"
+            android:drawableLeft="@drawable/okpassword"
+            android:drawablePadding="6dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:layout_margin="6dp"
+            android:hint="numéro de téléphone"
+            android:id="@+id/num"
+            android:layout_below="@id/ver"
+            android:drawableLeft="@drawable/tel"
+            android:paddingLeft="5dp"
+            android:background="@color/white"
+            android:drawablePadding="6dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="S'inscrire"
+        android:id="@+id/button"
+        android:background="@drawable/button_press"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Annuler"
+        android:id="@+id/button2"
+        android:background="@drawable/button_press"
+
+        android:layout_alignTop="@+id/button"
+        android:layout_alignRight="@+id/o"
+        android:layout_alignEnd="@+id/o" />
+</RelativeLayout>
